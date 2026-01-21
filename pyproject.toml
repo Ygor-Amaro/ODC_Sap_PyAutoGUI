@@ -1,0 +1,21 @@
+[project]
+name = "sap"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Ygor Kenji de Brito Amaro",email = "ygor.amaro@odontocompany.com.br"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas (>=3.0.0,<4.0.0)",
+    "pyautogui (>=0.9.54,<0.10.0)",
+    "opencv-python (>=4.13.0.90,<5.0.0.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "openpyxl (>=3.1.5,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
